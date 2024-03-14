@@ -39,6 +39,9 @@ TARGET_HAVE_SEC_NFC := true
 # DOLBY
 TARGET_SHIPS_CUSTOM_DOLBY := true
 
+# Face Unlock 
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := derp_m52xq
 PRODUCT_DEVICE := m52xq
