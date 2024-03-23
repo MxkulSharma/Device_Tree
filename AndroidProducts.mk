@@ -17,6 +17,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/derp_m52xq.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_m52xq-userdebug \
-    derp_m52xq-user \
-    derp_m52xq-eng
+    derp_m52xq-ap1a-userdebug \
+    derp_m52xq-ap1a-user \
+    derp_m52xq-ap1a-eng
