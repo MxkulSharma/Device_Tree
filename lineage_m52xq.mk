@@ -23,8 +23,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common DerpFest stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common Matrixx stuff.
+$(call inherit-product, vendor/lineage/config/common_full.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -41,6 +41,13 @@ TARGET_SHIPS_CUSTOM_DOLBY := true
 
 # Face Unlock 
 TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Matrixx
+MATRIXX_MAINTAINER := MxkulSharma
+MATRIXX_CHIPSET := sm778
+MATRIXX_BATTERY := 5000mAh
+MATRIXX_DISPLAY := 1080x2400
+WITH_GMS := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := derp_m52xq

@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_m52xq.mk
+    $(LOCAL_DIR)/lineage_m52xq.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_m52xq-userdebug \
-    derp_m52xq-user \
-    derp_m52xq-eng
+    lineage_m52xq-userdebug \
+    lineage_m52xq-user \
+    lineage_m52xq-eng
